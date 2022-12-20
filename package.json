@@ -1,13 +1,14 @@
 {
-  "name": "my-ec2-project",
+  "name": "nodejs-complete-guide",
   "version": "1.0.0",
-  "description": "Trying out nodeJS",
+  "description": "Complete Node.js Guide",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js",
-    "dev": "nodemon app.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "start-server": "node app.js"
   },
-  "author": "Arti",
+  "author": "Maximilian Schwarzmüller",
   "license": "ISC",
   "devDependencies": {
     "nodemon": "^1.18.3"

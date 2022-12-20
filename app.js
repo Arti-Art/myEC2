@@ -1,4 +1,5 @@
 const path = require('path');
+const port = 3000;
 
 const express = require('express');
 const bodyParser = require('body-parser');
@@ -21,5 +22,5 @@ app.use(shopRoutes);
 
 app.use(errorController.get404);
 
-app.listen(8080);
-console.log("listening on port 8080");
+app.listen(port);
+console.log(`listening on port ${port}`);
